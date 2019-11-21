@@ -17,7 +17,7 @@ app.listen(4000, () => {
 
 
 // Option 1: Passing parameters separately
-const db = new Sequelize('martin-testar', 'root', 'root', {
+const db = new Sequelize('martin-testar', 'root', 'password', {
   host: 'localhost',
   dialect: 'mysql',
   define: {
