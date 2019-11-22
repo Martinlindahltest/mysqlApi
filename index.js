@@ -60,6 +60,9 @@ db.authenticate()
     starttid: {
       type: Sequelize.STRING
     },
+    Lokal: {
+      type: Sequelize.STRING
+    },
     Pr_st: {
       type: Sequelize.STRING
     },
