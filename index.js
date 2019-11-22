@@ -75,6 +75,9 @@ db.authenticate()
     Internnotering: {
       type: Sequelize.STRING
     },
+    Vaktm_stare: {
+      type: Sequelize.STRING
+    },
   })
 
 
